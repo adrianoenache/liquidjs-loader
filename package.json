@@ -1,6 +1,6 @@
 {
   "name": "liquidjs-loader",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Webpack loader for liquidjs engine",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "liquidjs": "^10.8.2",
+    "liquidjs": "^10.20.0",
     "loader-utils": "^2.0.4"
   },
   "homepage": "https://github.com/adrianoenache/liquidjs-loader",
