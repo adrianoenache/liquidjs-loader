@@ -1,9 +1,8 @@
-const loaderUtils = require('loader-utils');
 const { Liquid } = require('liquidjs');
 
 module.exports = function(source, map) {
 
-  const options = loaderUtils.getOptions(this) || {};
+  const options = this.getOptions() || {};
   const data = options.data || {};
 
   const liquidOptions = Object.assign({}, options);
